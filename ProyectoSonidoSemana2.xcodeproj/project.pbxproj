@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D43BEC2A200CC448004277A6 /* All You Need Is Love.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC23200CC448004277A6 /* All You Need Is Love.m4a */; };
+		D43BEC2B200CC448004277A6 /* I'm Your Man.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC24200CC448004277A6 /* I'm Your Man.m4a */; };
+		D43BEC2C200CC448004277A6 /* Over the Rainbow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC25200CC448004277A6 /* Over the Rainbow.m4a */; };
+		D43BEC2D200CC448004277A6 /* Prefiero el Trapecio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC26200CC448004277A6 /* Prefiero el Trapecio.m4a */; };
+		D43BEC2E200CC448004277A6 /* Que Yo No Lo Sabía.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC27200CC448004277A6 /* Que Yo No Lo Sabía.m4a */; };
+		D43BEC2F200CC448004277A6 /* Tonada De Luna Llena.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC28200CC448004277A6 /* Tonada De Luna Llena.m4a */; };
+		D43BEC30200CC448004277A6 /* What a Wonderful World.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D43BEC29200CC448004277A6 /* What a Wonderful World.m4a */; };
+		D43BEC33200CD5ED004277A6 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43BEC32200CD5ED004277A6 /* View3.swift */; };
+		D46CC1BC2009417800E453C1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CC1BB2009417800E453C1 /* TableViewController.swift */; };
 		D4FE71802007C4C50081094D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE717F2007C4C50081094D /* AppDelegate.swift */; };
 		D4FE71822007C4C50081094D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE71812007C4C50081094D /* ViewController.swift */; };
 		D4FE71852007C4C50081094D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71832007C4C50081094D /* Main.storyboard */; };
@@ -14,6 +23,13 @@
 		D4FE718A2007C4C50081094D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71882007C4C50081094D /* LaunchScreen.storyboard */; };
 		D4FE71952007C4C60081094D /* ProyectoSonidoSemana2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE71942007C4C60081094D /* ProyectoSonidoSemana2Tests.swift */; };
 		D4FE71A02007C4C60081094D /* ProyectoSonidoSemana2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE719F2007C4C60081094D /* ProyectoSonidoSemana2UITests.swift */; };
+		D4FE71B52007C9C50081094D /* Luis-Amstrong.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71AE2007C9C50081094D /* Luis-Amstrong.png */; };
+		D4FE71B62007C9C50081094D /* M.Buble.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71AF2007C9C50081094D /* M.Buble.png */; };
+		D4FE71B72007C9C50081094D /* Manolo-garcia.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71B02007C9C50081094D /* Manolo-garcia.png */; };
+		D4FE71B82007C9C50081094D /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71B12007C9C50081094D /* rainbow.png */; };
+		D4FE71B92007C9C50081094D /* Silvia-perez-cruz.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71B22007C9C50081094D /* Silvia-perez-cruz.png */; };
+		D4FE71BD2007D0F40081094D /* Elefantes.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71BC2007D0F40081094D /* Elefantes.png */; };
+		D4FE71BF2007D2590081094D /* the beattles.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FE71BE2007D2590081094D /* the beattles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D43BEC23200CC448004277A6 /* All You Need Is Love.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All You Need Is Love.m4a"; sourceTree = "<group>"; };
+		D43BEC24200CC448004277A6 /* I'm Your Man.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I'm Your Man.m4a"; sourceTree = "<group>"; };
+		D43BEC25200CC448004277A6 /* Over the Rainbow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Over the Rainbow.m4a"; sourceTree = "<group>"; };
+		D43BEC26200CC448004277A6 /* Prefiero el Trapecio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prefiero el Trapecio.m4a"; sourceTree = "<group>"; };
+		D43BEC27200CC448004277A6 /* Que Yo No Lo Sabía.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Que Yo No Lo Sabía.m4a"; sourceTree = "<group>"; };
+		D43BEC28200CC448004277A6 /* Tonada De Luna Llena.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tonada De Luna Llena.m4a"; sourceTree = "<group>"; };
+		D43BEC29200CC448004277A6 /* What a Wonderful World.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What a Wonderful World.m4a"; sourceTree = "<group>"; };
+		D43BEC32200CD5ED004277A6 /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		D46CC1BB2009417800E453C1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D4FE717C2007C4C50081094D /* ProyectoSonidoSemana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoSonidoSemana2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FE717F2007C4C50081094D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FE71812007C4C50081094D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,13 @@
 		D4FE719B2007C4C60081094D /* ProyectoSonidoSemana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoSonidoSemana2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FE719F2007C4C60081094D /* ProyectoSonidoSemana2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoSonidoSemana2UITests.swift; sourceTree = "<group>"; };
 		D4FE71A12007C4C60081094D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FE71AE2007C9C50081094D /* Luis-Amstrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Luis-Amstrong.png"; sourceTree = "<group>"; };
+		D4FE71AF2007C9C50081094D /* M.Buble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M.Buble.png; sourceTree = "<group>"; };
+		D4FE71B02007C9C50081094D /* Manolo-garcia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manolo-garcia.png"; sourceTree = "<group>"; };
+		D4FE71B12007C9C50081094D /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = "<group>"; };
+		D4FE71B22007C9C50081094D /* Silvia-perez-cruz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silvia-perez-cruz.png"; sourceTree = "<group>"; };
+		D4FE71BC2007D0F40081094D /* Elefantes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elefantes.png; sourceTree = "<group>"; };
+		D4FE71BE2007D2590081094D /* the beattles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the beattles.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +106,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D43BEC31200CC452004277A6 /* Canciones */ = {
+			isa = PBXGroup;
+			children = (
+				D43BEC23200CC448004277A6 /* All You Need Is Love.m4a */,
+				D43BEC24200CC448004277A6 /* I'm Your Man.m4a */,
+				D43BEC25200CC448004277A6 /* Over the Rainbow.m4a */,
+				D43BEC26200CC448004277A6 /* Prefiero el Trapecio.m4a */,
+				D43BEC27200CC448004277A6 /* Que Yo No Lo Sabía.m4a */,
+				D43BEC28200CC448004277A6 /* Tonada De Luna Llena.m4a */,
+				D43BEC29200CC448004277A6 /* What a Wonderful World.m4a */,
+			);
+			name = Canciones;
+			sourceTree = "<group>";
+		};
 		D4FE71732007C4C50081094D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +143,10 @@
 		D4FE717E2007C4C50081094D /* ProyectoSonidoSemana2 */ = {
 			isa = PBXGroup;
 			children = (
+				D43BEC31200CC452004277A6 /* Canciones */,
+				D4FE71BB2007C9DC0081094D /* Fotos Album */,
+				D43BEC32200CD5ED004277A6 /* View3.swift */,
+				D46CC1BB2009417800E453C1 /* TableViewController.swift */,
 				D4FE717F2007C4C50081094D /* AppDelegate.swift */,
 				D4FE71812007C4C50081094D /* ViewController.swift */,
 				D4FE71832007C4C50081094D /* Main.storyboard */,
@@ -123,6 +173,20 @@
 				D4FE71A12007C4C60081094D /* Info.plist */,
 			);
 			path = ProyectoSonidoSemana2UITests;
+			sourceTree = "<group>";
+		};
+		D4FE71BB2007C9DC0081094D /* Fotos Album */ = {
+			isa = PBXGroup;
+			children = (
+				D4FE71BC2007D0F40081094D /* Elefantes.png */,
+				D4FE71AE2007C9C50081094D /* Luis-Amstrong.png */,
+				D4FE71AF2007C9C50081094D /* M.Buble.png */,
+				D4FE71B02007C9C50081094D /* Manolo-garcia.png */,
+				D4FE71B12007C9C50081094D /* rainbow.png */,
+				D4FE71B22007C9C50081094D /* Silvia-perez-cruz.png */,
+				D4FE71BE2007D2590081094D /* the beattles.png */,
+			);
+			name = "Fotos Album";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +299,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43BEC2D200CC448004277A6 /* Prefiero el Trapecio.m4a in Resources */,
+				D4FE71B82007C9C50081094D /* rainbow.png in Resources */,
+				D43BEC2E200CC448004277A6 /* Que Yo No Lo Sabía.m4a in Resources */,
+				D43BEC30200CC448004277A6 /* What a Wonderful World.m4a in Resources */,
 				D4FE718A2007C4C50081094D /* LaunchScreen.storyboard in Resources */,
+				D43BEC2F200CC448004277A6 /* Tonada De Luna Llena.m4a in Resources */,
+				D4FE71B52007C9C50081094D /* Luis-Amstrong.png in Resources */,
 				D4FE71872007C4C50081094D /* Assets.xcassets in Resources */,
+				D43BEC2A200CC448004277A6 /* All You Need Is Love.m4a in Resources */,
+				D4FE71B72007C9C50081094D /* Manolo-garcia.png in Resources */,
 				D4FE71852007C4C50081094D /* Main.storyboard in Resources */,
+				D4FE71BF2007D2590081094D /* the beattles.png in Resources */,
+				D43BEC2C200CC448004277A6 /* Over the Rainbow.m4a in Resources */,
+				D43BEC2B200CC448004277A6 /* I'm Your Man.m4a in Resources */,
+				D4FE71B62007C9C50081094D /* M.Buble.png in Resources */,
+				D4FE71BD2007D0F40081094D /* Elefantes.png in Resources */,
+				D4FE71B92007C9C50081094D /* Silvia-perez-cruz.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43BEC33200CD5ED004277A6 /* View3.swift in Sources */,
 				D4FE71822007C4C50081094D /* ViewController.swift in Sources */,
+				D46CC1BC2009417800E453C1 /* TableViewController.swift in Sources */,
 				D4FE71802007C4C50081094D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +594,7 @@
 				D4FE71A62007C4C60081094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FE71A72007C4C60081094D /* Build configuration list for PBXNativeTarget "ProyectoSonidoSemana2Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +603,7 @@
 				D4FE71A92007C4C60081094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FE71AA2007C4C60081094D /* Build configuration list for PBXNativeTarget "ProyectoSonidoSemana2UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +612,7 @@
 				D4FE71AC2007C4C60081094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
