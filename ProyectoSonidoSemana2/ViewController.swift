@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     var imagen: UIImage!
     var tituloCancion: String = ""
     
-    
     @IBOutlet weak var tituloCancionLbl: UILabel!
     @IBOutlet weak var imagenView: UIImageView!
    
@@ -38,6 +37,7 @@ class ViewController: UIViewController {
         if !cancion.isPlaying {
             cancion.play()
         }
+
     }
     
     @IBAction func pause(){
@@ -61,6 +61,7 @@ class ViewController: UIViewController {
         
         cancion.volume = volumen.value
     }
+    
     
     
 }

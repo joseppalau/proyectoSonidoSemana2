@@ -26,7 +26,7 @@ class Canciones {
 class TableViewController: UITableViewController {
     
 
-    var titulosCancion = ["Que Yo No Lo Sabía","What a Wonderful World","I'm Your Man","Prefiero el Trapecio","Over the Rainbow","Tonada De Luna Llena","All You Need Is Love"]
+    var titulosCancion = ["Que Yo No Lo Sabía","What a Wonderful World","I'm Your Man","Prefiero el Trapecio","Over the Rainbow","Vestida De Nit", "All You Need Is Love"]
     
     var imagenesPortada:  [UIImage] = [#imageLiteral(resourceName: "Elefantes.png"),#imageLiteral(resourceName: "Luis-Amstrong.png"),#imageLiteral(resourceName: "M.Buble.png"),#imageLiteral(resourceName: "Manolo-garcia.png"),#imageLiteral(resourceName: "rainbow.png"),#imageLiteral(resourceName: "Silvia-perez-cruz.png"),#imageLiteral(resourceName: "the beattles.png")]
     var archivoCancion = [AVAudioPlayer]()
@@ -38,10 +38,10 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         
         self.title = "Lista Canciones"
-        
+
         for i in 0...6 {
             
-            let songURL = Bundle.main.url(forResource: titulosCancion[i], withExtension: "m4a")
+            let songURL = Bundle.main.url(forResource: titulosCancion[i], withExtension: "mp3")
             
             do {
                 try song = AVAudioPlayer(contentsOf: songURL!)
