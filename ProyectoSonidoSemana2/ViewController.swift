@@ -15,12 +15,11 @@ class ViewController: UIViewController {
     var cancion: AVAudioPlayer!
     var imagen: UIImage!
     var tituloCancion: String = ""
+    var cancionesReproducidas = [AVAudioPlayer]()
     
     @IBOutlet weak var tituloCancionLbl: UILabel!
     @IBOutlet weak var imagenView: UIImageView!
-   
     @IBOutlet weak var volumen: UISlider!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,16 +27,28 @@ class ViewController: UIViewController {
         
         imagenView.image = imagen
         tituloCancionLbl.text = tituloCancion
+    
         play()
     
     }
     
     @IBAction func play() {
         
+        if cancionesReproducidas.count >= 1 {
+            let a = cancionesReproducidas.count
+            
+            if cancionesReproducidas[a-1].isPlaying {
+                cancionesReproducidas[a-1].stop()
+                cancionesReproducidas[a-1].currentTime = 0.0
+            }
+        }
+        
         if !cancion.isPlaying {
             cancion.play()
         }
-
+        
+        cancionesReproducidas.append(cancion)
+    
     }
     
     @IBAction func pause(){
@@ -56,12 +67,10 @@ class ViewController: UIViewController {
         }
     
     }
-    
+
     @IBAction func controlVolumen(_ sender: UISlider) {
         
         cancion.volume = volumen.value
     }
-    
-    
     
 }

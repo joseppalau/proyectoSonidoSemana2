@@ -57,8 +57,9 @@ class TableViewController: UITableViewController {
             let cancion = Canciones(tituloCancion:  titulosCancion[i], imagenPortada: imagenesPortada[i], cancion: archivoCancion[i])
             
             self.listadoCanciones.append(cancion)
-            
+          
         }
+        
         
     }
     
@@ -98,9 +99,26 @@ class TableViewController: UITableViewController {
             cc.cancion = self.listadoCanciones[b].cancion
             cc.imagen = self.listadoCanciones [b].imagenPortada
             cc.tituloCancion = self.listadoCanciones[b].tituloCancion
+            
+            for i in listadoCanciones {
+                
+                if (i.cancion?.isPlaying)! {
+                    i.cancion?.stop()
+                    
+                }
+            }
         }
         
         else {
+        
+            for i in listadoCanciones {
+                
+                if (i.cancion?.isPlaying)! {
+                    i.cancion?.stop()
+                    
+                }
+            }
+            
         let cc = segue.destination as! ViewController
         
         let ip = self.tableView.indexPathForSelectedRow
